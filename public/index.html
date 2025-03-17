@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>OpenAI Chat Bot</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="chat-container">
+            <div class="header">
+                <img src="./img/logo.png" alt="logo" class="logo" />
+                <h2 class="name">Chat Window</h2>
+            </div>
+            <div class="chat-log" id="chat-log"></div>
+            <div class="input-container">
+                <input type="text" name="user-input" id="user-input" placeholder="Ask a question 🙋">
+                <button type="submit" onClick="sendMessage()">▶️</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
